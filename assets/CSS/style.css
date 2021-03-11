@@ -2,8 +2,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    display: flex;
+    background-color: rgb(62, 166, 170);
 
+}
+
+:root {
+
+
+}
+
+li, a {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 title {
@@ -11,28 +22,35 @@ title {
 }
 
 
+
 header {
-    background-color: blueviolet;
-    padding: 0% 40% 5%;
+    background-color: thistle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
     
 }
-nav div {
-  
-    padding: 20% 110% 15%;
-    background-color: aquamarine;
+
+
+nav ul li a { 
+    border: 1px solid; 
+    border-radius: .5em; 
+    padding: .5em 1em; 
+    margin: .5em; 
 }
 
-#nav-links {
+#nav-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#nav-links li a {
+    padding: 5% 5% 5% 5%;
+    border: 2px;
+    border-style:solid;
+    border-radius: 10%;
     display: inline-block;
-
-}
-
-nav div ul li {
-    margin-left: 10%;
-    margin-right: 10%;
-    list-style-type: none;
-    font-size: 150%;
-    font-family: monospace;
-
 }
 
